@@ -1,0 +1,12 @@
+import { FREQUENCIES } from "./frequencies";
+
+export const KEY_MAP = {
+  a: FREQUENCIES.C4,
+  s: FREQUENCIES.D4,
+  d: FREQUENCIES.E4,
+  f: FREQUENCIES.F4,
+  g: FREQUENCIES.G4,
+  h: FREQUENCIES.A4,
+  j: FREQUENCIES.B4,
+  k: FREQUENCIES.C5
+};

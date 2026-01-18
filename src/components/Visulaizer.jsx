@@ -1,11 +1,14 @@
-import React from 'react'
+import { useVisualizer } from "../hooks/useVisualizer";
 
-const Visulaizer = () => {
+export default function Visualizer({ analyserRef }) {
+  const canvasRef = useVisualizer(analyserRef);
+
   return (
-    <div>
-      Visulaizer
-    </div>
-  )
+    <canvas
+      ref={canvasRef}
+      width={800}
+      height={200}
+      className="mx-auto bg-neutral-900 rounded-lg"
+    />
+  );
 }
-
-export default Visulaizer

@@ -1,11 +1,7 @@
-import React from 'react'
-
-const Header = () => {
+export default function Header() {
   return (
-    <div>
-      appheader
-    </div>
-  )
+    <h1 className="text-4xl font-bold text-center tracking-wide">
+      🎹 ToneTap
+    </h1>
+  );
 }
-
-export default Header
